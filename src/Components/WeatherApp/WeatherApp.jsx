@@ -103,8 +103,13 @@ const WeatherApp = () => {
             </div>
             <br></br>
             <div className='developed-by'>
-            | Developed by Vigneshwaran |
+            <a href="https://www.linkedin.com/in/vigneshwaran-manivannan/" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin"></i>
+                </a> | Developed by Vigneshwaran | <a href="https://github.com/Vignesh2828" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github"></i>
+                </a> 
             </div>
+
         </div>
     )
 }
